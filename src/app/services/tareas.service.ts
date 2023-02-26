@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Tarea } from '../model/Tarea';
+import { Tarea } from '../model/Encargo';
 
 @Injectable({
   providedIn: 'root'

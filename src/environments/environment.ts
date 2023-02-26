@@ -20,7 +20,8 @@ export const environment = {
     url:'http://localhost:8100/api',
     endpoints:{
       titulo:'/titulo',
-      user: '/users'
+      user: '/users',
+      encargo: '/encargo'
     },
   }
 };

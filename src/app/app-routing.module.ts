@@ -66,7 +66,11 @@ const routes: Routes = [
     loadChildren: () => import('./edit-ce/edit-ce.module').then( m => m.EditCePageModule)
   },
   { path: '**', pathMatch: 'full', 
-  component: Error404Page },
+  component: Error404Page },  {
+    path: 'tarea-edit',
+    loadChildren: () => import('./pages/tarea-edit/tarea-edit.module').then( m => m.TareaEditPageModule)
+  },
+
 ];
 @NgModule({
   imports: [
